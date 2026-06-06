@@ -1,0 +1,118 @@
+@font-face {
+    font-family: '荆南麦圆体';
+    src: url('KNMaiyuan.ttf');
+}
+.box {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 8px;
+    aspect-ratio: 4 / 3;
+    width: min-content;
+    flex-shrink: 0;
+    padding: 15px 30px;
+    white-space: nowrap;
+    font-family: '荆南麦圆体';
+    background: url(example.JPG);
+    background-size: cover;
+    background-position: center;
+    color: black;
+    min-width: 200px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    transform-origin: center;
+    transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.box .overlay {
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: white;
+    opacity: 0.5;
+}
+
+.box > *:not(.overlay) {
+    position: relative;
+    z-index: 1;
+}
+
+.box .brand {
+    font-family: '荆南麦圆体';
+    font-size: 20px;
+    margin: 0;
+    text-align: center;
+    font-weight: normal;
+}
+
+.box .line {
+    width: 100%;
+    height: 1px;
+    background: currentColor;
+    margin: 5px 0;
+}
+
+.box h1 {
+    font-family: '荆南麦圆体';
+    font-size: 24px;
+    margin: 0 0 10px 0;
+    text-align: center;
+}
+
+.box h2 {
+    font-family: '荆南麦圆体';
+    font-size: 18px;
+    margin: 0;
+    text-align: center;
+    font-weight: normal;
+}
+
+#days {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 1;
+}
+
+#days .label {
+    margin: 0;
+    font-size: 18px;
+}
+
+#days .number {
+    margin: 0;
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 1;
+}
+
+#days .days-line {
+    width: 200px;
+    height: 1px;
+    background: currentColor;
+    margin-top: 5px;
+}
+
+#links {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+#links a {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    text-decoration: none;
+    color: #9FB2C3;
+    font-size: 14px;
+    filter: drop-shadow(1px 1px 2px rgba(255,255,255,0.8));
+}
+
+#links .link-icon {
+    width: 24px;
+    height: 24px;
+}

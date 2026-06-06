@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>图标预览</title>
+    <style>
+        body {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            padding: 20px;
+            font-family: sans-serif;
+        }
+        .item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 80px;
+        }
+        .item img {
+            width: 48px;
+            height: 48px;
+        }
+        .item span {
+            margin-top: 5px;
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+    <script src="icons.js"></script>
+    <script>
+        icons.forEach(icon => {
+            document.body.innerHTML += '<div class="item"><img src="' + icon.path + '"><span>' + icon.number + '</span></div>';
+        });
+    </script>
+</body>
+</html>
