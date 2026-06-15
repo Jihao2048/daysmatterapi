@@ -9,7 +9,7 @@
 - 🎨 可调节遮罩透明度
 - 🔗 支持添加链接（带图标）
 - 🖱️ 鼠标移动时卡片3D倾斜效果
-- 📱 陀螺仪倾斜支持（需要用户授权）
+- 📱 陀螺仪倾斜支持（HTTPS协议下，爱疯手机需要用户授权）
 
 ## URL参数说明
 
@@ -23,10 +23,10 @@
 | `linkname` | 链接名称 | 否 |
 | `linkurl` | 链接地址 | 否 |
 
-## 使用示例
+## 使用例
 
 ```
-http://localhost:8080/?title=依一拉黑我&date=2025-11-25&bg=mclvlc.jpeg&opacity=0.6&icon=261&linkname=回忆&linkurl=gallery\gallery.html
+https://daysmatterapi.vercel.app/?title=依一拉黑我&date=2025-11-25&bg=mclvlc.jpeg&opacity=0.6&icon=261&linkname=回忆&linkurl=gallery\gallery.html
 ```
 
 ## 日期判断逻辑
@@ -36,12 +36,16 @@ http://localhost:8080/?title=依一拉黑我&date=2025-11-25&bg=mclvlc.jpeg&opac
 
 ## 文件结构
 
+在域名https://daysmatterapi.vercel.app/后添加文件名可直接打开，
+
+[图标预览](https://daysmatterapi.vercel.app/预览.html)
+
 ```
 ├── index.html          # 主页面
 ├── script.js           # 核心逻辑
 ├── styles.css          # 样式文件
 ├── icons.js            # 图标数据
-├── icon-preview.html   # 图标预览页面
+├── 预览.html   # 图标预览页面
 ├── KNMaiyuan.ttf       # 字体文件
 ├── P1100627.JPG        # 默认背景图
 ├── SVG/                # 图标目录
