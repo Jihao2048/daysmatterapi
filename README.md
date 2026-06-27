@@ -36,7 +36,7 @@ https://daysmatterapi.vercel.app/?title=依一拉黑我&date=2025-11-25&bg=mclvl
 
 ## 文件结构
 
-在域名https://daysmatterapi.vercel.app/后添加文件名可直接打开，
+在daysmatterapi.vercel.app/后添加文件名可直接打开。
 
 [图标预览](https://daysmatterapi.vercel.app/预览.html)
 
