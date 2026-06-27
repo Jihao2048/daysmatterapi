@@ -45,21 +45,25 @@ https://daysmatterapi.vercel.app/?title=依一拉黑我&date=2025-11-25&bg=mclvl
 ├── script.js           # 核心逻辑
 ├── styles.css          # 样式文件
 ├── icons.js            # 图标数据
-├── 预览.html   # 图标预览页面
+├── 预览.html           # 图标预览页面
 ├── KNMaiyuan.ttf       # 字体文件
-├── P1100627.JPG        # 默认背景图
+├── example.JPG         # 默认背景图
 ├── SVG/                # 图标目录
 └── README.md           # 说明文档
 ```
 
 ## 图标预览
 
-打开 `icon-preview.html` 查看所有可用图标及其序号。
+打开 `预览.html` 查看所有可用图标及其序号。
 
 ## 开发运行
+
+直接双击打开
+
+或者
 
 ```bash
 python -m http.server 8080
 ```
 
-访问 `http://localhost:8080` 查看效果。
+访问 `http://localhost:8080` 可查看预览。
