@@ -38,8 +38,6 @@ https://daysmatterapi.vercel.app/?title=依一拉黑我&date=2025-11-25&bg=mclvl
 
 在daysmatterapi.vercel.app/后添加文件名可直接打开。
 
-[图标预览](https://daysmatterapi.vercel.app/预览.html)
-
 ```
 ├── index.html          # 主页面
 ├── script.js           # 核心逻辑
@@ -54,16 +52,10 @@ https://daysmatterapi.vercel.app/?title=依一拉黑我&date=2025-11-25&bg=mclvl
 
 ## 图标预览
 
-打开 `预览.html` 查看所有可用图标及其序号。
+打开 [图标预览](https://daysmatterapi.vercel.app/预览.html) 查看所有可用图标及其序号。
 
-## 开发运行
+## 图标来源致谢
 
-直接双击打开
+感谢 Nieobie 提供免费无需授权的图标，采用CC0协议的作品可以被任何人自由使用，无论用途，都无需获得原作者许可，也无需署名（尽管署名是一种良好实践）
 
-或者
-
-```bash
-python -m http.server 8080
-```
-
-访问 `http://localhost:8080` 可查看预览。
+[图标仓库](https://github.com/Nieobie/Game-Icon-Pack)
